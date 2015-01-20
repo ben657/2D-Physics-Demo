@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestScene" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAA=</HashCode>
+      <FileName>TestScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animation" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAEAAgAAAEAEAkAAAACAAAAAAQIAABCAAAAAAAAE=</HashCode>
+      <FileName>Graphics\Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graphics" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAEAEAAASAAAAAAAwAACAJAgAAASEAAAADAAAE=</HashCode>
+      <FileName>Graphics\Graphics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAABAAAgAAgQAAAAEAAAAAAABAAAAIAAAAAEAA=</HashCode>
+      <FileName>Graphics\Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rect" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAABgQAAAEAAACCAAAAIAAAAAAAAgIA=</HashCode>
+      <FileName>Math\Rect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vec2" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAZAAAAAAAAAAAAAggEAAAA=</HashCode>
+      <FileName>Math\Vec2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAIAAAAAABAgAAAAAAIAAAACAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>World\Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAgAAAAAAAQAAAAQAAAIAAAAAAAAA=</HashCode>
+      <FileName>World\Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="World" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIQBAAAwAABABAAAAAAABWAAAASAAAAEAAAAA=</HashCode>
+      <FileName>World\World.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Colour" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAQABABAAAAA=</HashCode>
+      <FileName>Graphics\Graphics.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
