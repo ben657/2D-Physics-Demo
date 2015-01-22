@@ -1,61 +1,19 @@
-﻿Build started 20/01/2015 19:07:26.
+﻿Build started 22/01/2015 18:56:25.
      1>Project "E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\PhysStuff\PhysStuff.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\PhysStuff\\" /IHAPI /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Graphics\Animation.cpp Graphics\Graphics.cpp Graphics\Texture.cpp Input.cpp main.cpp Math\Math.cpp Math\Rect.cpp Math\Vec2.cpp MyScene.cpp Physics\CircleCollider.cpp Physics\RectCollider.cpp Physics\Spring.cpp UI\Button.cpp UI\UI.cpp UI\UIEntity.cpp World\Entity.cpp World\PhysEntity.cpp World\Scene.cpp World\World.cpp
-         World.cpp
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\input.h(37): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\input.h(38): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         Scene.cpp
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\world\scene.cpp(12): warning C4018: '<' : signed/unsigned mismatch
-         PhysEntity.cpp
-         Entity.cpp
-         UIEntity.cpp
-         UI.cpp
-         Button.cpp
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\input.h(37): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\input.h(38): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\physics\rectcollider.h(11): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\ui\button.cpp(36): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         Spring.cpp
-         RectCollider.cpp
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\physics\rectcollider.h(11): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-         CircleCollider.cpp
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\physics\rectcollider.h(11): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\physics\circlecollider.cpp(6): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\PhysStuff\\" /IHAPI /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MyScene.cpp
          MyScene.cpp
      1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\physics\rectcollider.h(11): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
      1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\input.h(37): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
      1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\input.h(38): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(12): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(52): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(112): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(154): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(159): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(166): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(266): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(287): warning C4018: '<' : signed/unsigned mismatch
-         Vec2.cpp
-         Rect.cpp
-         Math.cpp
-         main.cpp
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\physics\rectcollider.h(11): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\input.h(37): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\input.h(38): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         Input.cpp
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\input.h(37): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\input.h(38): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         Texture.cpp
-         Graphics.cpp
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\graphics\graphics.cpp(144): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\graphics\graphics.cpp(145): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\graphics\graphics.cpp(146): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\graphics\graphics.cpp(147): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\graphics\graphics.cpp(152): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\graphics\graphics.cpp(153): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-         Animation.cpp
-         Generating Code...
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\physics\circlecollider.cpp(24): warning C4715: 'CircleCollider::Intersects' : not all control paths return a value
-     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\physics\rectcollider.cpp(19): warning C4715: 'RectCollider::Intersects' : not all control paths return a value
+     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(11): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(111): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(153): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(158): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(165): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(267): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\myscene.cpp(286): warning C4018: '<' : signed/unsigned mismatch
        Link:
          E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\PhysStuff.exe" /INCREMENTAL /NOLOGO /LIBPATH:HAPI /LIBPATH:DirectX/X86 HAPI_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\PhysStuff.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\PhysStuff.lib" /MACHINE:X86 Debug\Animation.obj
          Debug\Graphics.obj
@@ -76,22 +34,9 @@
          Debug\PhysEntity.obj
          Debug\Scene.obj
          Debug\World.obj
-     1>HAPI_debug.lib(DirectSoundUtil.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(DirectSoundUtil.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
-     1>HAPI_debug.lib(Error.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(Error.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
-     1>HAPI_debug.lib(HapiCore.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(HapiCore.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
-     1>HAPI_debug.lib(HapiInputOs.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(HapiInputOs.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
-     1>HAPI_debug.lib(HapiMain.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(HapiMain.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
-     1>HAPI_debug.lib(HapiOsWindows.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(HapiOsWindows.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
-     1>HAPI_debug.lib(HapiRendererDirect3D.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(HapiRendererDirect3D.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
-     1>HAPI_debug.lib(HapiSoundDirectSound.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(HapiSoundDirectSound.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
-     1>HAPI_debug.lib(HapiXInput.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(HapiXInput.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
-     1>HAPI_debug.lib(StreamedMediaPlayer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(StreamedMediaPlayer.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
-     1>HAPI_debug.lib(StringUtils.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(StringUtils.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
-     1>HAPI_debug.lib(Utility.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(Utility.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
-     1>HAPI_debug.lib(stdafx.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI_debug.lib(stdafx.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\vc120.pdb'; linking object as if no debug info
          PhysStuff.vcxproj -> E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Debug\PhysStuff.exe
      1>Done Building Project "E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\PhysStuff\PhysStuff.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:11.14
+Time Elapsed 00:00:01.86

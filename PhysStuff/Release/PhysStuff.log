@@ -1,39 +1,58 @@
-﻿Build started 14/01/2015 14:08:36.
-     1>Project "U:\Year 2\GEC\PhysStuff\PhysStuff\PhysStuff.vcxproj" on node 2 (Build target(s)).
+﻿Build started 20/01/2015 19:47:51.
+     1>Project "E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\PhysStuff\PhysStuff.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IHAPI /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Graphics\Animation.cpp Graphics\Graphics.cpp Graphics\Texture.cpp Input.cpp main.cpp Math\Math.cpp Math\Rect.cpp Math\Vec2.cpp MyScene.cpp Physics\CircleCollider.cpp Physics\RectCollider.cpp Physics\Spring.cpp World\Entity.cpp World\PhysEntity.cpp World\Scene.cpp World\World.cpp
-         Animation.cpp
-     1>u:\year 2\gec\physstuff\physstuff\graphics\Animation.h(3): fatal error C1083: Cannot open include file: 'Math/Rect.h': No such file or directory
-         Graphics.cpp
-     1>Graphics\Graphics.cpp(1): fatal error C1083: Cannot open include file: 'Graphics/Graphics.h': No such file or directory
-         Texture.cpp
-     1>u:\year 2\gec\physstuff\physstuff\graphics\Texture.h(5): fatal error C1083: Cannot open include file: 'Graphics/Animation.h': No such file or directory
-         Input.cpp
-     1>u:\year 2\gec\physstuff\physstuff\Input.h(4): fatal error C1083: Cannot open include file: 'Math/Vec2.h': No such file or directory
-         main.cpp
-     1>main.cpp(2): fatal error C1083: Cannot open include file: 'Graphics/Graphics.h': No such file or directory
-         Math.cpp
-     1>u:\year 2\gec\physstuff\physstuff\math\Math.h(3): fatal error C1083: Cannot open include file: 'Math/Vec2.h': No such file or directory
-         Rect.cpp
-         Vec2.cpp
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\PhysStuff\\" /IHAPI /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MyScene.cpp
          MyScene.cpp
-     1>u:\year 2\gec\physstuff\physstuff\MyScene.h(4): fatal error C1083: Cannot open include file: 'World/Scene.h': No such file or directory
-         CircleCollider.cpp
-     1>u:\year 2\gec\physstuff\physstuff\physics\CircleCollider.h(3): fatal error C1083: Cannot open include file: 'Physics/Collider.h': No such file or directory
-         RectCollider.cpp
-     1>u:\year 2\gec\physstuff\physstuff\physics\RectCollider.h(4): fatal error C1083: Cannot open include file: 'Physics/Collider.h': No such file or directory
-         Spring.cpp
-     1>u:\year 2\gec\physstuff\physstuff\physics\Spring.h(3): fatal error C1083: Cannot open include file: 'World/PhysEntity.h': No such file or directory
-         Entity.cpp
-     1>u:\year 2\gec\physstuff\physstuff\world\Entity.h(5): fatal error C1083: Cannot open include file: 'World/World.h': No such file or directory
-         PhysEntity.cpp
-     1>u:\year 2\gec\physstuff\physstuff\world\PhysEntity.h(3): fatal error C1083: Cannot open include file: 'World/Entity.h': No such file or directory
-         Scene.cpp
-     1>u:\year 2\gec\physstuff\physstuff\world\Scene.h(4): fatal error C1083: Cannot open include file: 'World/Entity.h': No such file or directory
-         World.cpp
-     1>World\World.cpp(1): fatal error C1083: Cannot open include file: 'World/World.h': No such file or directory
-     1>Done Building Project "U:\Year 2\GEC\PhysStuff\PhysStuff\PhysStuff.vcxproj" (Build target(s)) -- FAILED.
+     1>E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\PhysStuff\Physics/RectCollider.h(11): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\PhysStuff\Input.h(37): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\PhysStuff\Input.h(38): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>MyScene.cpp(11): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>MyScene.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>MyScene.cpp(111): warning C4018: '<' : signed/unsigned mismatch
+     1>MyScene.cpp(153): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>MyScene.cpp(158): warning C4018: '<' : signed/unsigned mismatch
+     1>MyScene.cpp(165): warning C4018: '<' : signed/unsigned mismatch
+     1>MyScene.cpp(265): warning C4018: '<' : signed/unsigned mismatch
+     1>MyScene.cpp(286): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\PhysStuff.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:HAPI /LIBPATH:DirectX/X86 HAPI.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\PhysStuff.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\PhysStuff.lib" /MACHINE:X86 /SAFESEH Release\Animation.obj
+         Release\Graphics.obj
+         Release\Texture.obj
+         Release\Input.obj
+         Release\main.obj
+         Release\Math.obj
+         Release\Rect.obj
+         Release\Vec2.obj
+         Release\MyScene.obj
+         Release\CircleCollider.obj
+         Release\RectCollider.obj
+         Release\Spring.obj
+         Release\Button.obj
+         Release\UI.obj
+         Release\UIEntity.obj
+         Release\Entity.obj
+         Release\PhysEntity.obj
+         Release\Scene.obj
+         Release\World.obj
+         Generating code
+     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\physics\rectcollider.cpp(19): warning C4715: 'RectCollider::Intersects' : not all control paths return a value
+     1>e:\ben\documents\visual studio 2013\projects\2d-physics-demo\physstuff\physics\circlecollider.cpp(24): warning C4715: 'CircleCollider::Intersects' : not all control paths return a value
+         Finished generating code
+     1>HAPI.lib(HapiMain.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI.lib(HapiMain.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\vc120.pdb'; linking object as if no debug info
+     1>HAPI.lib(stdafx.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI.lib(stdafx.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\vc120.pdb'; linking object as if no debug info
+     1>HAPI.lib(Error.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI.lib(Error.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\vc120.pdb'; linking object as if no debug info
+     1>HAPI.lib(HapiCore.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI.lib(HapiCore.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\vc120.pdb'; linking object as if no debug info
+     1>HAPI.lib(StringUtils.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI.lib(StringUtils.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\vc120.pdb'; linking object as if no debug info
+     1>HAPI.lib(HapiRendererDirect3D.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI.lib(HapiRendererDirect3D.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\vc120.pdb'; linking object as if no debug info
+     1>HAPI.lib(HapiSoundDirectSound.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI.lib(HapiSoundDirectSound.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\vc120.pdb'; linking object as if no debug info
+     1>HAPI.lib(HapiInputOs.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI.lib(HapiInputOs.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\vc120.pdb'; linking object as if no debug info
+     1>HAPI.lib(DirectSoundUtil.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI.lib(DirectSoundUtil.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\vc120.pdb'; linking object as if no debug info
+     1>HAPI.lib(HapiOsWindows.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI.lib(HapiOsWindows.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\vc120.pdb'; linking object as if no debug info
+     1>HAPI.lib(HapiXInput.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI.lib(HapiXInput.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\vc120.pdb'; linking object as if no debug info
+     1>HAPI.lib(StreamedMediaPlayer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'HAPI.lib(StreamedMediaPlayer.obj)' or at 'E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\vc120.pdb'; linking object as if no debug info
+         PhysStuff.vcxproj -> E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\Release\PhysStuff.exe
+     1>Done Building Project "E:\Ben\Documents\Visual Studio 2013\Projects\2D-Physics-Demo\PhysStuff\PhysStuff.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:02.63
+Time Elapsed 00:00:03.53

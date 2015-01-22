@@ -16,11 +16,11 @@ void Spring::FixedUpdate()
 	float distance = direction.Length();
 	Vec2 relativeV = end1_->GetVelocity() - end2_->GetVelocity();
 
-	Vec2 damping = (relativeV * damping_);
-	Vec2 force = (direction / distance) * (distance - restLength_) * -stiffness_ - damping;
+	Vec2 damping = relativeV * damping_;
+	Vec2 force = (direction / distance) * (distance - restLength_) * -stiffness_;
 
-	if (end1_->GetInvMass() > 0)
-		end1_->AddForce(force);
-	if (end2_->GetInvMass() > 0)
-		end2_->AddForce(force * -1.f);
+	if (!end1_->IsFrozen())
+		end1_->AddForce(force - damping);
+	if (!end2_->IsFrozen())
+		end2_->AddForce((force * -1.f) + damping);
 }

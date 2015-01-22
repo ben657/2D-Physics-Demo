@@ -2,12 +2,11 @@
 
 MyScene::MyScene()
 {
-	HAPI->SetShowFPS(true);
 	gfx->LoadTexture("Data/Images/red.png", "red");
 	gfx->LoadTexture("Data/Images/green.png", "green");
 	gfx->LoadTexture("Data/Images/blue.png", "blue");
 
-	world->SetGravity(Vec2(0.0f, .15f));
+	world->SetGravity(Vec2(0.0f, .18f));
 
 	ground = new PhysEntity(0 + gfx->GetScreenWidth() * 0.5f, 816 + 42, RandomCol());
 	ground->SetTag("ball");
@@ -84,7 +83,7 @@ void MyScene::AddSpring(PhysEntity* end1, PhysEntity* end2)
 	Spring* spring = new Spring(end1, end2);
 	spring->restLength_ = Vec2::Distance(end1->GetPosition(), end2->GetPosition());
 	spring->stiffness_ = currStiffness;
-	spring->damping_ = 0.7f;
+	spring->damping_ = .5f;
 	springs.push_back(spring);
 	springStart = nullptr;
 }
@@ -263,12 +262,12 @@ void MyScene::Update(float delta)
 
 void MyScene::FixedUpdate()
 {
+	Collisions();
+
 	for (int i = 0; i < springs.size(); i++)
 	{
 		springs[i]->FixedUpdate();
-	}	
-
-	Collisions();
+	}		
 
 	Scene::FixedUpdate();	
 	if (ground->GetVelocity().x_ != 0.0f || ground->GetVelocity().y_ != 0.0f)
